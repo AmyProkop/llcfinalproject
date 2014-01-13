@@ -1,0 +1,161 @@
+<!doctype html> 
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<title>Prokop Final Project</title>
+		<style>
+		h1 {color: white;
+  			font-family: Helvetica, Arial, sans-serif;    
+			font-size: 48px;
+			padding: 10px; 
+		}
+
+		h2 {
+			background-color: #444444;
+			color: white; 
+			font-size: 32px;
+			border-bottom: 6px solid #196FD9;
+  			background: #736D82;
+  			padding: 10px;
+		}
+		body{
+			color: #444444; /* grey */
+  			font-family: Helvetica, Arial, sans-serif;    
+			font-size: 28px;
+			margin: auto;
+		}
+		p {
+  			line-height: 1.4;
+		}
+		.menu {
+  			list-style: none; /* removes bullets */
+  			padding: 0;
+  			margin: 0;
+  			text-align: center;
+  			border-bottom: 1px solid #434A5C;
+  			background: #ffffff;
+  			position: fixed;
+  			top: 0;
+  			left: 0;
+  			width: 100%;
+}
+		.menu li {
+  			display: inline-block;
+ 			padding: 20px 35px;
+}
+		.menu a {
+ 			text-decoration: none;
+  			color: #333333;
+  			font-weight: bold;
+  			text-transform: uppercase;
+  			font-family: 'Oswald', sans-serif;
+}
+		.banner {
+  			background: url("images/Saskatoon.jpg");
+  			width: 100%;
+  			color: white;
+  			text-align: center;
+  			padding-bottom: 30px;
+  			padding-top: 80px;
+  			background-repeat: no-repeat;
+  			background-size: 100%;
+  			background-attachment: fixed;
+}
+		.aboutme {
+			width: 100%;
+			margin: 0 auto;
+			background: url('images/tile1.png');
+			overflow: hidden;
+			text-indent: 40px;
+			background: url('images/ps_neutral/ps_neutral.png');
+		}
+		.logo-image {
+			padding-top: 20px;
+			margin: 0 auto;
+			display: block;
+		}
+		.profile-image {
+			border-radius: 50%;
+  			border: 8px solid white;
+  			width: 150px;
+  			height: 150px;
+  		}
+  		.about-image {
+  			float: left;
+  			width: 250px;
+  			height: 200px;
+  		}
+  		.myfavorite {
+  			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			background: url('images/ps_neutral/ps_neutral.png');
+  		}
+		.favorite-image {
+			border-radius: 50%;
+  			border: 4px dotted grey;
+  			box-shadow: 0 0 4px grey;
+  			width: 300px;
+  			height: 225px;
+  			padding: 2px;
+		}
+		.contactme{
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			background: url('images/retina_wood/retina_wood.png');
+		}
+		.icon-image{
+			padding: 20px;
+		}
+		.box{
+			padding: 40px 0px;
+		}
+		</style>
+
+	</head>
+	<body>
+	<ul class="menu">
+  		<li><a href="#about">About</a></li>
+  		<li><a href="#favourites">Favourites</a></li>
+  		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<section class="banner">
+		<img src="images/logo.png" class="logo-image" alt="logo image"><br/>
+		<h1>Amy Prokop</h1>
+		<img src="images/amyprokop.JPG" alt="amy prokop image"class="profile-image">	  	
+	</section>
+	
+	<section id="about" class="aboutme box">
+		<h2>About Me</h2>
+		<img src="images/aboutme.JPG"class="about-image">	 
+		<p>I love sports!</p>
+	</section>
+
+	<section id="favourites" class="myfavorite box">
+		<h2>My Favourite Things</h2>
+		<img src="images/sports.jpg"class="favorite-image">
+		<img src="images/beer.jpeg"class="favorite-image">
+		<img src="images/breadcheesewine.jpg"class="favorite-image"/>
+		<p> Sports are my favorite, I play them all the time.<br/>
+		I go drinking with my friends and always have a good time.<br/>
+		I like to snack on cheese and bread...and don't forget the wine!
+	</section>
+
+	<section id="contact" class= "contactme box">
+		<h2>Contact Me</h2>
+		<a href="https://twitter.com/APro5" 
+			class="icon-image" 
+			target="_blank"><img src="images/twitter.png"/>
+		</a>
+		<a href="https://www.facebook.com/amy.prokop"
+			class="icon-image" 
+			target="_blank"><img src="images/facebook.png"/>
+		</a>
+		<a href="http://www.linkedin.com/profile/view?id=118122529&trk=nav_responsive_tab_profile" 
+		class="icon-image"  
+		target="_blank"><img src="images/linkedin.png"/>
+	</a>
+	</section>
+	</body>
+</html>
